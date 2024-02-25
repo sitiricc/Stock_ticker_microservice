@@ -12,7 +12,7 @@ def get_stock_price(stock_ticker):
     """Gets stock price for given ticker."""
     now = datetime.datetime.now().strftime("%Y-%m-%d")
     data = yf.Ticker(stock_ticker)
-    data = data.history(start="2010-01-01", end=now)
+    data = data.history(start="2024-01-01", end=now)
     if not data.empty:
         current_price = data['Close'].iloc[-1]
         formatted_price= price_conversion(current_price)
