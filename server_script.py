@@ -15,6 +15,8 @@ finnhub_client = finnhub.Client(api_key=api_key)
 
 
 context = zmq.Context()
+
+#  Socket to talk to server
 socket = context.socket(zmq.REP)
 socket.bind("tcp://*:5555")
 
