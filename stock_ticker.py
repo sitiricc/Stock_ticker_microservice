@@ -27,4 +27,4 @@ if __name__ == '__main__':
     if price is not None:
         print(f"Current price of {symbol}: {price} as of {timestamp}")
     else:
- 
+        print(f"Failed to retrieve data for {symbol}")
