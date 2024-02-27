@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 # https://zeromq.org/get-started/?language=python#
 
 
-# Code for API
+# API key and code.
 load_dotenv()
 api_key = os.getenv('API_KEY')
 finnhub_client = finnhub.Client(api_key=api_key)
