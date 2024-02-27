@@ -18,9 +18,9 @@ Once the client_script.py file is initialized, text will pop up asking for a sto
 A list of stock symbols can be found here:
 https://stockanalysis.com/stocks/
 
-A. Instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call.
+An example call would be the user entering AAPL when prompted. This will send the request to get the information for the APPLE stock.
 
-## How to request data
+## How to receive data
 
 Once you've entered a stock symbol and sent it to the server, the server will use the Finnhub API to pull the most recent pricing for the stock. The program will then display it to the user.
 
