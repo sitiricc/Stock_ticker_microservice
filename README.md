@@ -10,6 +10,8 @@ Once you receive one, create a .env file with the API key.
 
 Install the requirements file.
 
+Start your virtual environment to pull information from client_script and servicer_script and the Finnhub API.
+
 
 ## How to request data
 
@@ -28,3 +30,4 @@ Once you've entered a stock symbol and sent it to the server, the server will us
 ## UML Sequence Diagram
 
 This diagram will show how to send and receive information.
+
