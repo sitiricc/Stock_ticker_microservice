@@ -29,4 +29,4 @@ Once you've entered a stock symbol and sent it to the server, the server will us
 
 This diagram will show how to send and receive information.
 
-![UML diagram]([image link](https://tinypic.host/image/DBAdG1)https://tinypic.host/image/DBAdG1)
+![UML diagram](https://tinypic.host/image/DBAdG1)
