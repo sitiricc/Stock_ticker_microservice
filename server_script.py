@@ -2,7 +2,7 @@ import zmq
 import finnhub
 import os
 from dotenv import load_dotenv
-
+import datetime
 
 # https://finnhub.io/docs/api/websocket-trades
 # https://zeromq.org/get-started/?language=python#
@@ -25,6 +25,7 @@ api_key= os.getenv('API_KEY')
 
 def get_current_price(stock_ticker):
     """Get current data for stock. """
+    now = datetime.datetime.now().strftime("%Y-%m-%d")
     data = finnhub_client.quote(stock_ticker)
     return data['c']
 
